@@ -49,7 +49,7 @@ header {
 }
 .header-active {
     background: white;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 .nav {
     display: flex;
@@ -61,30 +61,34 @@ header {
 .logo {
     font-size: 1.2rem;
     font-weight: 700;
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 60px;
 }
 .header-image {
-    height: 60px;
-    width: 150px;
+    height: 100px;
+    width: 280px;
 }
 .navbar{
     display: flex;
     align-items: center;
-    column-gap: 1.5rem;
+    column-gap: 1.3rem;
+    margin-top: 1rem;
 }
 .nav-link{
     font-size: 0.94rem;
-    padding: 5px 10px;
-    border-radius: 0.2rem;
-    width: 123px;
+    padding: 5px 15px;
+    border-radius: 0.4rem;
+    width: 153px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
 }
 /* Body */
 .body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 7rem;
+    padding-top: 11rem;
 }
 .body-content {
     position: relative;
@@ -131,12 +135,22 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 526px;
+    width: 510px;
     height: 48px;
 }
 .hug {
     border: none;
-    width: 250px;
+    width: 270px;
+    height: 58px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    border-radius: 5px;
+}
+.hugs {
+    border: none;
+    width: 199px;
     height: 58px;
     padding: 10px 20px;
     font-weight: 600;
@@ -161,7 +175,7 @@ header {
 .projects-content {
     display: flex;
     height: 176px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .projects-box {
     flex: auto;
@@ -188,14 +202,14 @@ header {
     line-height: 38px;
     color: #9C9C9C;
     text-align: center;
-    margin-top: 1.5rem;
+    margin-top: 1.7rem;
 }
 /* What we do */
 .what {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 4rem;
+    margin-top: 5rem;
 }
 .what-content {
     position: relative;
@@ -218,17 +232,17 @@ header {
 }
 .what-text p {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 26.3px;
     line-height: 38px;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 5.5rem;
 }
 .what-details {
     display: flex;
-    margin-top: 1rem;
-    width: 1000px;
+    width: 1200px;
     margin: auto;
-    justify-content: space-around;
+    /* padding-left: 3.5rem; */
+    /* justify-content: space-around; */
 }
 .details {
     display: flex;
@@ -240,27 +254,53 @@ header {
     justify-content: center;
     align-items: center;
 }
-.details img {
+.img1 {
     width: 38px;
     height: 53px;
 }
-.message-body {
-    width: 195px;
-    height: 66px;
+.img2 {
+    width: 48px;
+    height: 48px;
 }
-.message {
-    font-weight: 600;
+.img3 {
+    width: 37px;
+    height: 32px;
+}
+.img4 {
+    width: 37px;
+    height: 37px;
+}
+.message-body {
+    position: relative;
+    width: 300px;
+    height: 66px;
+    margin: auto;
+}
+.message-body p {
+    margin: auto;
+    width: 270px;
+    height: 136px;
+    font-weight: 400;
     font-size: 24px;
     line-height: 33px;
     text-align: center;
-    margin-top: 1rem;
+    /* padding: 0 1rem; */
+}
+.message {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+    width: 300px;
 }
 /* How to */
 .how {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10rem;
+    margin-top: 17rem;
     margin-bottom: 3rem;
 }
 .how-content {
@@ -276,7 +316,7 @@ header {
     font-weight: 700;
     font-size: 56px;
     line-height: 76px;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .how-details {
     margin: auto;
@@ -309,7 +349,7 @@ header {
 .how-detail {
     margin: auto;
     margin-top: 1rem;
-    width: 70%;
+    width: 68%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 1rem;
@@ -318,12 +358,12 @@ header {
     display: flex;
     flex-direction: column;
     line-height: 76px;
-    box-shadow: 0px 4px 21px rgba(131, 131, 131, 0.25);
+    box-shadow: 0px 7px 21px rgba(82, 80, 80, 0.25);
     border-radius: 5px;
     justify-content: center;
     align-items: center;
-    padding: 2.5rem 2rem;
-    height: 300px;
+    padding: 5rem 2rem;
+    height: 380px;
 }
 .hows {
     flex: 50%;
@@ -332,18 +372,19 @@ header {
 .email {
     background-color: var(--primary-color);
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     height: 532px;
 }
 .email-content {
     position: relative;
     margin: auto;
     width: 100%;
+    height: 532px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .email-content h5 {
     font-weight: 700;
@@ -351,8 +392,10 @@ header {
     line-height: 54px;
     text-align: center;
     width: 662px;
-    height: 171px;
+    height: 141px;
     color: white;
+    padding-top: 1rem;
+    padding-bottom: 12rem;
 }
 .input {
     width: 673px;
@@ -377,6 +420,9 @@ header {
     border: none;
 }
 /* FAQs */
+.faq {
+    margin-top: 2rem;
+}
 .faq-content {
     margin: auto;
     width: 100%;
@@ -421,7 +467,7 @@ header {
     border-radius: 50%;
     position: relative;
     right: -550px;
-    margin: 3rem 0;
+    margin: 2rem 0;
     cursor: pointer;
 }
 .chat img {
@@ -456,6 +502,7 @@ header {
     line-height: 33px;
     text-align: center;
     color: white;
+    margin-bottom: 1rem;
 }
 .social-items {
     display: flex;
@@ -471,10 +518,11 @@ header {
 }
 .footer-contents {
     color: white;
-    width: 373px;
+    width: 323px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 1rem;
 }
 .footer-contents a {
     color: white;
@@ -483,22 +531,40 @@ header {
     color: #4e7df5;
 }
 .socials {
-    width: 12px;
+    width: 10.15px;
     height: 18.25px;
+    cursor: pointer;
+}
+.socials1 {
+    width: 19.51px;
+    height: 16.28px;
+    cursor: pointer;
+}
+.socials2 {
+    width: 20.23px;
+    height: 14.61px;
+    cursor: pointer;
+}
+.socials3 {
+    width: 18.38px;
+    height: 18.42px;
+    cursor: pointer;
+}
+.socials4 {
+    width: 18.75px;
+    height: 19.25px;
     cursor: pointer;
 }
 .inputs {
     width: 399px;
     height: 58px;
-    padding: 20px, 30px;
     margin-bottom: 1.5rem;
-    margin-top: 1rem;
-    border: none;
     font-weight: 400;
     font-size: 21.25px;
     line-height: 29px;
-    color: rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
     border-radius: 5px;
+    border: none;
 }
 .sign {
     height: 61px;
@@ -513,4 +579,26 @@ header {
 }
 button {
     cursor: pointer;
+}
+.hr1 {
+    position: absolute;
+    size: 5px;
+    height: 5px;
+    width: 25%;
+    color: var(--primary-color);
+    background-color: var(--primary-color);
+    border: none;
+    right: 0;
+    top: 40px;
+}
+.hr2 {
+    position: absolute;
+    size: 5px;
+    height: 5px;
+    width: 25%;
+    color: var(--primary-color);
+    background-color: var(--primary-color);
+    border: none;
+    left: 0;
+    top: 40px;
 }
